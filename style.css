@@ -1,0 +1,850 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.list{
+    width: 1300px;
+    height: 3910px;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+.content{
+    justify-content: space-around;
+    width: 1300px;
+    height: 56px;
+    display: flex;
+    box-shadow: 3px 7px 12px -8px rgba(0, 0, 0, 0.5);
+}
+
+.content-text{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.content-menu{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 549px;
+    height: 56px;
+}
+
+.content-menu:hover{
+    color: red;
+    background: rgb(254, 254, 0);
+}
+
+.content-phone{
+    text-align: center;
+    border-radius: 5px;
+    width: 159px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    background: #00BAFC;
+    color: white;
+}
+
+.content-phone:hover{
+    color:red;
+    background: #000000;
+}
+
+.video-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.video-content{
+    width: 470px;
+    height: 224px;
+    gap: 16px;
+    padding-right: 550px;
+}
+
+.video-title{
+    width: 470px;
+    height: 78px;
+    font-size: 32px;
+    color: #000000;
+}
+
+.video-text{
+    width: 465px;
+    height: 74px;
+    font-size: 17px;
+    color: #000000;
+}
+
+.video-btn{
+    width: 232px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    color: white;
+    background: #00BAFC;
+    border-color: #00BAFC;
+    font-size: 16px;
+}
+
+.video-btn:hover{
+    color: black;
+    background: red;
+}
+
+.xizmatlar{
+    width: 1300px;
+    height: 879px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.xizmatlar-title{
+    margin: 0 auto;
+    width: 117px;
+    height: 31px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.xizmatlar-text{
+    margin: 0 auto;
+    width: 719px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.cards{
+    margin: 0 auto;
+    width: 1175px;
+}
+
+.cards-tepa{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1{
+   padding: 10px 30px 10px 30px;
+   width: 320px;
+   height: 260px;
+   border-radius: 5px;
+   padding: 24px;
+   gap: 16px;
+   background: #FFFFFF; 
+   border: 2px solid #0000001A;
+   box-shadow: 3px 7px 12px -8px rgba(0, 0, 0, 0.75);
+   text-align: center;
+}
+
+.card1:hover{
+    background: yellow;
+}
+
+.card1 :hover{
+    background: black;
+    color: white;
+    border-color: black;
+}
+
+.card1-title{
+    width: 146px;
+    height: 26px;
+    font-size:22px;
+    color: #000000;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card1-text{
+    width: 95px;
+    height: 24px;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.card2{
+    width: 320px;
+    height: 260px;
+    border-radius: 5px;
+    padding: 24px;
+    gap: 16px;
+    background: #FFFFFF; 
+    border: 2px solid #0000001A;
+    box-shadow: 3px 7px 12px -8px rgba(0, 0, 0, 0.75);
+    text-align: center;
+ }
+
+ .card2:hover{
+    background: red;
+}
+
+ .card2 :hover{
+    background: black;
+    color: white;
+    border-color: black;
+}
+
+.card2-title{
+    width: 133px;
+    height: 26px;
+    font-size: 22px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.card2-text{
+    width: 95px;
+    height: 24px;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.card3{
+    width: 320px;
+    height: 260px;
+    border-radius: 5px;
+    padding: 24px;
+    gap: 16px;
+    background: #FFFFFF; 
+    border: 2px solid #0000001A;
+    box-shadow: 3px 7px 12px -8px rgba(0, 0, 0, 0.75);
+    text-align: center;
+ }
+
+ .card3:hover{
+    background: green;
+}
+
+ .card3 :hover{
+    background: black;
+    color: white;
+    border-color: black;
+}
+
+.card3-title{
+    width: 49px;
+    height: 26px;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.card3-text{
+    width: 95px;
+    height: 24px;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.cards-pas{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    }
+
+.card4{
+    width: 320px;
+    height: 260px;
+    border-radius: 5px;
+    padding: 24px;
+    gap: 16px;
+    background: #FFFFFF; 
+    border: 2px solid #0000001A;
+    box-shadow: 3px 7px 12px -8px rgba(0, 0, 0, 0.75);
+    text-align: center;
+ }
+
+ .card4:hover{
+    background: rgb(149, 8, 105);
+}
+
+ .card4 :hover{
+    background: black;
+    color: white;
+    border-color: black;
+}
+
+.card4-title{
+    width: 133px;
+    height: 26px;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.card4-text{
+    width: 95px;
+    height: 24px;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.card5{
+    width: 320px;
+    height: 260px;
+    border-radius: 5px;
+    padding: 24px;
+    gap: 16px;
+    background: #FFFFFF; 
+    border: 2px solid #0000001A;
+    box-shadow: 3px 7px 12px -8px rgba(0, 0, 0, 0.75);
+    text-align: center;
+ }
+
+ .card5:hover{
+    background: rgb(229, 123, 82);
+}
+
+ .card5 :hover{
+    background: black;
+    color: white;
+    border-color: black;
+    box-shadow: 4px 4px ;
+}
+
+.card5-title{
+    width: 133px;
+    height: 26px;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.card5-text{
+    width: 95px;
+    height: 24px;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.xizmatlar-btns{
+    width: 378px;
+    height: 64px;
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.xizmatlar-btn{
+    width: 167px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 8px, 16px, 8px, 16px; 
+    gap: 10px;
+    background: #00BAFC;
+    color: white;
+}
+
+.xizmatlar-btn:hover{
+    color: red;
+    background: black;
+}
+
+.xizmatlar-btn2{
+width: 192px;
+height: 24px;
+text-align: center;
+margin: auto
+}
+
+.xizmatlar-btn2:hover{
+    color: black;
+    background: yellow;
+}
+
+.ish{
+    width: 1300px;
+    height: 1675.81px;
+    padding: 56px, 0px, 56px, 0px;
+    gap: 16px;
+    background: #FFFFFF;
+    margin: auto;
+}
+
+.ish-title{
+    width: 262px;
+    height: 31px;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    margin-left: 550px
+}
+
+.ish-text{
+    width: 719px;
+    height: 48px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.ish-cards{
+    margin: 0 200px;
+}
+
+.card-content1{
+    display: flex;
+}
+
+.card-content1:hover{
+    color: yellow;
+    background: #100ab8;
+    box-shadow: 2px 4px 6px 4px rgba(233, 6, 6, 0.75);
+}
+
+.ish-content1{
+    width: 500px;
+    height: 82px;
+    gap: 8px;
+    margin: auto;
+}
+
+
+.ish-card-title1{
+    width: 277px;
+    height: 26px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.ish-card-text1{
+width: 493px;
+height: 48px;
+font-size: 19px;
+color: #000000;
+}
+
+.card-content2{
+    display: flex;
+}
+
+.card-content2:hover{
+    color: rgb(9, 2, 75);
+    background: #b5f421;
+    box-shadow: 2px 4px 6px 4px rgba(72, 0, 255, 0.75);
+}
+
+.ish-content2{
+    width: 500px;
+    height: 58px;
+    gap: 8px;
+    margin: auto;
+}
+
+.ish-card-title2{
+    width: 355px;
+    height: 26px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.ish-card-text2{
+width: 719px;
+height: 24px;
+font-size: 17px;
+color: #000000;
+}
+
+.card-content3{
+    display: flex;
+}
+
+.card-content3:hover{
+    color: rgb(255, 0, 0);
+    background: #4e9738;
+    box-shadow: 2px 4px 6px 4px rgba(0, 0, 0, 0.75);
+}
+
+.ish-content3{
+    width: 500px;
+    height: 58px;
+    gap: 8px;
+    margin: auto;
+}
+
+.ish-card-title3{
+    width: 277px;
+    height: 26px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.ish-card-text3{
+width: 303px;
+height: 26px;
+font-size: 16px;
+color: #000000;
+}
+
+.card-content4{
+    display: flex;
+}
+
+.card-content4:hover{
+    color: rgb(255, 0, 195);
+    background: #00ff08;
+    box-shadow: 2px 4px 6px 4px rgba(72, 4, 91, 0.75);
+}
+
+.ish-content4{
+    width: 500px;
+    height: 58px;
+    gap: 8px;
+    margin: auto;
+}
+
+.ish-card-title4{
+    width: 343px;
+    height: 26px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.ish-card-text4{
+width: 719px;
+height: 24px;
+font-size: 16px;
+color: #000000;
+}
+
+.card-content5{
+    display: flex;
+}
+
+.card-content5:hover{
+    color: rgb(245, 177, 7);
+    background: #dd1616;
+    box-shadow: 2px 4px 6px 4px rgba(198, 235, 14, 0.75);
+}
+
+.ish-content5{
+    width: 500px;
+    height: 58px;
+    gap: 8px;
+    margin: auto;
+}
+
+.ish-card-title5{
+    width: 264px;
+    height: 26px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.ish-card-text5{
+width: 719px;
+height: 24px;
+font-size: 16px;
+color: #000000;
+}
+
+.ish-btn{
+    width: 167px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 8px, 16px, 8px, 16px;
+    gap: 10px;
+    background: #00BAFC;
+    color: white;
+    border-color: #00BAFC;
+    margin: 30px 550px;
+}
+
+.ish-btn:hover{
+    color: blue;
+    background: red;
+}
+
+.buyurtma-berish{
+    background: #00BAFC;
+    width: 1300px;
+    height: 543px;
+    padding: 56px, 100px, 56px, 100px;
+    gap: 16px;
+}
+
+form{
+    width: 348px;
+    height: 304;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: #FFFFFF;
+    }
+    
+input{
+    width: 300px;
+    height: 56px;
+     padding: 16px;
+     border-radius: 5px;
+     color: blue;
+     background: #F3F3F3;
+     border-color: #F3F3F3;
+    }
+    
+    button{
+        margin: auto;
+        width: 167px;
+        height: 40px;
+        border-radius: 5px;
+        padding: 8px, 16px, 8px, 16px;
+        gap: 10px;
+        border: 1px solid #00BAFC;
+        background: #00BAFC;
+        color: #FFFFFF;
+    }
+
+    button:hover{
+        color: red;
+        background: black;
+    }
+    
+    select{
+        width: 300px;
+        height: 56px;
+        border-radius: 5px;
+    }
+
+.buyurtma-title{
+    margin: 15px auto;
+    text-align: center;
+    width: 203px;
+    height: 31px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.buyurtma-text{
+    margin: auto;
+    text-align: center;
+    width: 719px;
+    height: 48px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer{
+    display: flex;
+    width: 1300px;
+    height: 338px;
+    gap: 16px;
+    background: #191919;
+    color: #FFFFFF;
+}
+
+.coment1{
+    width: 320px;
+    height: 162px;
+    margin: 50px 80px;
+    
+}
+
+.coment1-title{
+    width: 149px;
+    height: 26px;
+    font-size: 20px;
+}
+
+.coment1-title:hover{
+    color: rgb(0, 204, 255);
+    background: #630202;
+}
+
+.coment1-text{
+    width: 320px;
+    height: 120px;
+    font-size: 16px; 
+    margin-top: 15px;    
+}
+
+.coment1-text:hover{
+    color: rgb(245, 7, 225);
+    background: #304202;
+    box-shadow: 2px 4px 6px 4px rgba(53, 14, 126, 0.75);
+}
+
+.coment2{
+    width: 143px;
+    height: 226px;
+    margin: 50px 80px;
+}
+
+.coment2-title{
+    width: 149px;
+    height: 26px;
+    font-size: 20px;
+}
+
+.coment2-title:hover{
+    color: rgb(255, 0, 170);
+    background: #522c2c;
+}
+
+
+.coment2-text{
+    width: 87px;
+    height: 184px;
+    margin-top: 15px;
+}
+
+.coment2-text:hover{
+    color: rgb(245, 177, 7);
+    background: #eff305;
+    box-shadow: 2px 4px 6px 4px rgba(198, 235, 14, 0.75);
+}
+
+
+.coment3{
+    width: 142px;   
+    height: 130px;
+    margin: 50px 80px;
+}
+
+.coment3-title{
+    width: 142px;
+    height: 26px;
+    font-size: 20px;
+}
+
+.coment3-title:hover{
+    color: rgb(238, 255, 0);
+    background: #270101;
+}
+
+.coment3-text{
+    width: 106px;
+    height: 88px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    color: white;
+}
+
+.coment3-text:hover{
+    color: rgb(7, 43, 245);
+    background: #16dd20;
+    box-shadow: 2px 4px 6px 4px rgba(236, 138, 10, 0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
